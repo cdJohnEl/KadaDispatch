@@ -1,0 +1,26 @@
+rules_version = '2';
+
+// Firebase Storage Security Rules
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Proof of Delivery uploads (signatures and photos)
+    match /proof-of-delivery/{deliveryId}/{fileName} {
+      // Allow authenticated users to upload proof of delivery
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+    
+    // Driver KYC documents (ID cards, licenses, photos)
+    match /kyc/{driverId}/{fileName} {
+      // Only the driver can upload their own KYC documents
+      allow read: if request.auth != null && request.auth.uid == driverId;
+      allow write: if request.auth != null && request.auth.uid == driverId;
+    }
+    
+    // Default: Deny all other access
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

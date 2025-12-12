@@ -274,8 +274,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@cdJohnEl](https://github.com/cdJohnEl)
+- Email: easykelchimdikejohn@gmail.com
 
 ---
 
@@ -289,9 +289,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
+<!-- ## 📞 Support
 
-For support, email support@kadadispatch.com or join our Slack channel.
+For support, email support@kadadispatch.com or join our Slack channel. -->
 
 ---
 

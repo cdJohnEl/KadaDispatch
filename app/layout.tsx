@@ -7,7 +7,7 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'DeliveryConnect - Connect Sellers with Reliable Drivers',
+  title: 'KadaDispatch - Connect Sellers with Reliable Drivers',
   description: 'Fast, secure, and affordable delivery services connecting sellers with verified drivers for intra and inter-state deliveries.',
 };
 

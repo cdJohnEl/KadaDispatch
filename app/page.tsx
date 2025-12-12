@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-2">
               <Truck className="h-8 w-8 text-primary" />
-              <h1 className="text-2xl font-bold text-gray-900">DeliveryConnect</h1>
+              <h1 className="text-2xl font-bold text-gray-900">KadaDispatch</h1>
             </div>
             <div className="flex items-center gap-4">
               <Link href="/auth/login">
@@ -58,7 +58,7 @@ export default function HomePage() {
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Why Choose DeliveryConnect?
+              Why Choose KadaDispatch?
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="text-center">
@@ -174,7 +174,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h3 className="text-4xl font-bold mb-6">Ready to Get Started?</h3>
             <p className="text-xl mb-8">
-              Join thousands of satisfied customers and drivers using DeliveryConnect
+              Join thousands of satisfied customers and drivers using KadaDispatch
             </p>
             <Link href="/auth/signup">
               <Button size="lg" variant="secondary" className="text-lg px-8 py-3">
@@ -189,10 +189,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Truck className="h-6 w-6" />
-            <span className="text-xl font-bold">DeliveryConnect</span>
+            <span className="text-xl font-bold">KadaDispatch</span>
           </div>
           <p className="text-gray-400">
-            © 2025 DeliveryConnect. All rights reserved.
+            © 2025 KadaDispatch. All rights reserved.
           </p>
         </div>
       </footer>

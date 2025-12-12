@@ -24,7 +24,7 @@ export function LoginForm() {
     try {
       const { user } = await signInWithEmailAndPassword(auth, email, password);
       const userDoc = await getDoc(doc(db, 'users', user.uid));
-      
+
       if (userDoc.exists()) {
         const userData = userDoc.data();
         toast.success('Welcome back!');
@@ -41,7 +41,7 @@ export function LoginForm() {
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
         <CardTitle>Sign In</CardTitle>
-        <CardDescription>Welcome back to DeliveryConnect</CardDescription>
+        <CardDescription>Welcome back to KadaDispatch</CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-4">
